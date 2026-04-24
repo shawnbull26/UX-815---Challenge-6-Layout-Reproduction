@@ -1,2 +1,2 @@
-# Static HTML Boilerplate
-Basic HTML, CSS, and JavaScript setup for a simple website.
+# Challenge 6 - Hacker News Layout Reproduction 1
+Basic layout reproduction using HTML and Tailwind CSS.
