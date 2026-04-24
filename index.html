@@ -1,19 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="screen.css">
-  </head>
-  <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="screen.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Header Section -->
+  <div class=" bg-orange-500 flex flex-row items-center justify-between p-4 bg-gray-100">
+    <div class="flex flex-row items-center justify-between gap-4">
+      <p class="font-bold text-white border border-white p-2">Y</p>
+      <h1 class="font-bold">Hacker News</h1>
+      <p>new | past | comments | ask | show | jobs | submit</p>
+    </div>
+    <div>
+      <p>Login</p>
+    </div>
+  </div>
+
+  <!-- Main Content Section -->
+  <ol class="space-y-4 text-body list-decimal list-inside px-12 py-6">
+    <li class="list-color-gray-500">
+      Airfoil <a class="text-gray-500 hover:text-gray-700" href="http://ciechanow.ski" target="_blank"
+        rel="noopener noreferrer">(ciechanow.ski)</a>
+      <ul class="text-gray-500 ps-5 mt-2 space-y-1 list-none list-disc list-inside">
+        <li>1148 points by todsacerdoti 4 hours ago | hide | 115 comments</li>
       </ul>
-    </nav>
-    <script src="index.js"></script>
-  </body>
+    </li>
+
+    <li class="list-color-gray-500">
+      Amazon lobbyists to be banned from European parliament <a class="text-gray-500 hover:text-gray-700"
+        href="http://uni-europa.org" target="_blank" rel="noopener noreferrer">(uni-europa.org)</a>
+      <ul class="text-gray-500 ps-5 mt-2 space-y-1 list-none list-disc list-inside">
+        <li>42 points by anigbrowl 16 minutes ago | hide | 8 comments</li>
+      </ul>
+    </li>
+
+    <li class="list-color-gray-500">
+      SuperTux <a class="text-gray-500 hover:text-gray-700" href="https://github.com/supertux" target="_blank"
+        rel="noopener noreferrer">(github.com/supertux)</a>
+      <ul class="text-gray-500 ps-5 mt-2 space-y-1 list-none list-disc list-inside">
+        <li>61 points by floriangosse 1 hour ago | hide | 13 comments</li>
+      </ul>
+    </li>
+
+    <li class="list-color-gray-500">
+      Pure Programming Language <a class="text-gray-500 hover:text-gray-700" href="https://agraef.github.io" target="_blank"
+        rel="noopener noreferrer">(github.io/agraef)</a>
+      <ul class="text-gray-500 ps-5 mt-2 space-y-1 list-none list-disc list-inside">
+        <li>56 points by tosh 2 hours ago | hide | 4 comments</li>
+      </ul>
+    </li>
+
+    <li class="list-color-gray-500">
+      Testing the F-35C Tailhook <a class="text-gray-500 hover:text-gray-700" href="https://the-engi-nerd.github.io" target="_blank"
+        rel="noopener noreferrer">(the-engi-nerd.github.io)</a>
+      <ul class="text-gray-500 ps-5 mt-2 space-y-1 list-none list-disc list-inside">
+        <li>239 points by sklargh 5 hours ago | hide | 101 comments</li>
+      </ul>
+    </li>
+
+    <li class="list-color-gray-500">
+      Ant Geopolitics <a class="text-gray-500 hover:text-gray-700" href="https://aeon.co" target="_blank"
+        rel="noopener noreferrer">(aeon.co)</a>
+      <ul class="text-gray-500 ps-5 mt-2 space-y-1 list-none list-disc list-inside">
+        <li>196 points by romaintailhurat 7 hours ago | hide | 61 comments</li>
+      </ul>
+    </li>
+
+    <li class="list-color-gray-500">
+      Tesorio (YC S15) Is Hiring a Head of Infrastructure (100% Remote) <a class="text-gray-500 hover:text-gray-700" href="https://tesorio.com" target="_blank"
+        rel="noopener noreferrer">(tesorio.com)</a>
+      <ul class="text-gray-500 ps-5 mt-2 space-y-1 list-none list-disc list-inside">
+        <li>21 minutes ago | hide</li>
+      </ul>
+    </li>
+
+    <li class="list-color-gray-500">
+      The /unblock API from Browserless: dodging bot detection as a service <a class="text-gray-500 hover:text-gray-700" href="https://browserless.io" target="_blank"
+        rel="noopener noreferrer">(browserless.io)</a>
+      <ul class="text-gray-500 ps-5 mt-2 space-y-1 list-none list-disc list-inside">
+        <li>75 points by keepamovin 3 hours ago | hide | 65 comments</li>
+      </ul>
+    </li>
+
+    <li class="list-color-gray-500">
+      I turned my open-source project into a full-time business <a class="text-gray-500 hover:text-gray-700" href="https://emailengine.app" target="_blank"
+        rel="noopener noreferrer">(emailengine.app)</a>
+      <ul class="text-gray-500 ps-5 mt-2 space-y-1 list-none list-disc list-inside">
+        <li>472 points by andris9 11 hours ago | hide | 185 comments</li>
+      </ul>
+    </li>
+
+     <li class="list-color-gray-500">
+      SpaceX discloses cause of Starship anomalies as it clears an FAA hurdle <a class="text-gray-500 hover:text-gray-700" href="https://arstechnica.com" target="_blank"
+        rel="noopener noreferrer">(arstechnica.com)</a>
+      <ul class="text-gray-500 ps-5 mt-2 space-y-1 list-none list-disc list-inside">
+        <li>164 points by rbanffy 8 hours ago | hide | 188 comments</li>
+      </ul>
+    </li>
+
+     <li class="list-color-gray-500">
+      Blazer: Business intelligence made simple <a class="text-gray-500 hover:text-gray-700" href="https://github.com/ankane/blazer" target="_blank"
+        rel="noopener noreferrer">(github.com/ankane/blazer)</a>
+      <ul class="text-gray-500 ps-5 mt-2 space-y-1 list-none list-disc list-inside">
+        <li>124 points by tosh 7 hours ago | hide | 27 comments</li>
+      </ul>
+    </li>
+
+     <li class="list-color-gray-500">
+      Apple cancels work on electric car, shifts team to generative AI <a class="text-gray-500 hover:text-gray-700" href="https://bloomberg.com" target="_blank"
+        rel="noopener noreferrer">(bloomberg.com)</a>
+      <ul class="text-gray-500 ps-5 mt-2 space-y-1 list-none list-disc list-inside">
+        <li>405 points by coloneltcb 2 hours ago | hide | 416 comments</li>
+      </ul>
+    </li>
+
+      <li class="list-color-gray-500">
+        Synthetic data generation for tabular data <a class="text-gray-500 hover:text-gray-700" href="https://github.com/sdv-dev" target="_blank"
+          rel="noopener noreferrer">(github.com/sdv-dev)</a>
+        <ul class="text-gray-500 ps-5 mt-2 space-y-1 list-none list-disc list-inside">
+          <li>20 points by skadamat 2 hours ago | hide | 1 comment</li>
+        </ul>
+      </li>
+
+      <li class="list-color-gray-500">
+        Show HN: Mountaineer - Webapps in Python and React <a class="text-gray-500 hover:text-gray-700" href="https://github.com/piercefreeman" target="_blank"
+          rel="noopener noreferrer">(github.com/piercefreeman)</a>
+        <ul class="text-gray-500 ps-5 mt-2 space-y-1 list-none list-disc list-inside">
+          <li>82 points by icyfox 6 hours ago | hide | 33 comments</li>
+        </ul>
+      </li>
+
+      <li class="list-color-gray-500">
+        Show HN: I built an open-source data copy tool called ingestr <a class="text-gray-500 hover:text-gray-700" href="https://github.com/bruin-data" target="_blank"
+          rel="noopener noreferrer">(github.com/bruin-data)</a>
+        <ul class="text-gray-500 ps-5 mt-2 space-y-1 list-none list-disc list-inside">
+          <li>78 points by karakanb 6 hours ago | hide | 27 comments</li>
+        </ul>
+      </li>
+
+      <li class="list-color-gray-500">
+        Dracula's Biggest Mistake <a class="text-gray-500 hover:text-gray-700" href="https://ayjay.org" target="_blank"
+          rel="noopener noreferrer">(ayjay.org)</a>
+        <ul class="text-gray-500 ps-5 mt-2 space-y-1 list-none list-disc list-inside">
+          <li>20 points by chesterfield 2 hours ago | hide | 24 comments</li>
+        </ul>
+      </li>
+
+      <li class="list-color-gray-500">
+        Consider the Pawpaw <a class="text-gray-500 hover:text-gray-700" href="https://beltmag.com" target="_blank"
+          rel="noopener noreferrer">(beltmag.com)</a>
+        <ul class="text-gray-500 ps-5 mt-2 space-y-1 list-none list-disc list-inside">
+          <li>55 points by PaulHoule 7 hours ago | hide | 48 comments</li>
+        </ul>
+      </li>
+
+      <li class="list-color-gray-500">
+        Why time seems to pass faster as we age <a class="text-gray-500 hover:text-gray-700" href="https://invertedpassion.com" target="_blank"
+          rel="noopener noreferrer">(invertedpassion.com)</a>
+        <ul class="text-gray-500 ps-5 mt-2 space-y-1 list-none list-disc list-inside">
+          <li>215 points by paraschopra 11 hours ago | hide | 138 comments</li>
+        </ul>
+      </li>
+
+      <li class="list-color-gray-500">
+        The Second Golden Age of Emacs <a class="text-gray-500 hover:text-gray-700" href="https://batsov.com" target="_blank"
+          rel="noopener noreferrer">(batsov.com)</a>
+        <ul class="text-gray-500 ps-5 mt-2 space-y-1 list-none list-disc list-inside">
+          <li>78 points by ossusermivami 9 hours ago | hide | 39 comments</li>
+        </ul>
+      </li>
+
+      <li class="list-color-gray-500">
+        Social Media First Amendment Cases <a class="text-gray-500 hover:text-gray-700" href="https://lawfaremedia.org" target="_blank"
+          rel="noopener noreferrer">(lawfaremedia.org)</a>
+        <ul class="text-gray-500 ps-5 mt-2 space-y-1 list-none list-disc list-inside">
+          <li>55 points by Mjadams 7 hours ago | hide | 140 comments</li>
+        </ul>
+      </li>
+
+
+    <!-- Template -->
+    <!-- <li class="list-color-gray-500">
+      add <a class="text-gray-500 hover:text-gray-700" href="https://example.com" target="_blank"
+        rel="noopener noreferrer">(example.com)</a>
+      <ul class="text-gray-500 ps-5 mt-2 space-y-1 list-disc list-inside">
+        <li>add</li>
+      </ul>
+    </li> -->
+
+
+  </ol>
+
+  <script src="index.js"></script>
+</body>
+
 </html>
